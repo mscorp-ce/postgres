@@ -1,0 +1,6 @@
+INSERT INTO cygni.empresas(
+	idempresa, razaosocial, nomefantasia, cnpj, inscricaoestadual, inscricaomunicipal, cnae, crt, celular, 
+	telefone, ramal, fax, email)
+	VALUES (nextval('cygni.SEQ_empresas'), 'PRISMA TECHNOLOGIES LTDA', 'PRISMA TECHNOLOGIES', '92030518000196', 
+			NULL, NULL, '62.01-5-01', '016478', '85988335012', '85988335012', NULL, NULL, 
+			'marcio.silva@prismatechnologies.com.br');
